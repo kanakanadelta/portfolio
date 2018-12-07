@@ -1,0 +1,6 @@
+node_modules
+Gruntfile.js
+aws-credentials.json
+app.js
+public/app.js
+public/bundle.js
