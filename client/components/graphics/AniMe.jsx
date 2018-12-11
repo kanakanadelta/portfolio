@@ -18,7 +18,17 @@ const AniMe = props => {
           <div className="foreArm" id="rightForeArm"></div>
         </div>
       </div>
-      <div id="star">☆</div>
+      <div id="star">
+        <a style={{
+          color:'#E85555'
+          }}
+          href="https://codepen.io/raphiel/pen/WYBORr"
+          title="View me on Codepen!"
+          target="_blank"
+          >
+        ☆  
+        </a>
+      </div>
     </div>
 
     <div className="head">
