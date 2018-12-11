@@ -13,8 +13,11 @@
     "styles-dev": "sass --watch input.scss output.css sass --watch app/sass:public/stylesheets"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Rafael Tongson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanakanadelta/portfolio.git"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "babel-core": "^6.26.3",
