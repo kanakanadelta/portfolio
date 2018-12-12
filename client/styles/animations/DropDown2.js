@@ -4,6 +4,7 @@ export default styled.div`
 
   display: flex;
   justify-content: flex-start;
+  margin-top: '-30px'
 
   background-repeat: no-repeat;
   -webkit-animation-duration: 2;

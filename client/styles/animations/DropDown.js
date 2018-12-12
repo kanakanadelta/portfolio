@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export default styled.div`
 
+  @media only screen and (max-width: 900px) {
+    font-size: 36px;
+  }
+
   display: flex;
   justify-content: flex-start;
 

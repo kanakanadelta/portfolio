@@ -7,6 +7,7 @@ export default styled.span`
   justify-content: space-around;
   align-items: center;
 
+  /* Animations */
 
   h2, ul, span, p, a {
     font-family: 'Questrial', sans-serif;
@@ -16,7 +17,13 @@ export default styled.span`
     font-size: 24px;
     color: #000;
   }
-  
+
+  /* Responsive Design */
+
+  @media only screen and (max-width: 900px) {
+    font-size: 18px;
+  }
+
   /* Animation */
 
   animation: appear-text-trans 2.5s;

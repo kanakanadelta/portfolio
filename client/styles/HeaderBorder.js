@@ -3,6 +3,14 @@ import styled from 'styled-components';
 export default styled.div`
   margin-left: 1%;
   margin-right: 1%;
+  margin-bottom: 10px;
+  
+  /* Responsive Design */
+
+  @media only screen and (max-width: 900px) {
+  }
+
+  /* Animations */
 
   border-bottom: 1px solid #F9788C;
   @keyframes expand {

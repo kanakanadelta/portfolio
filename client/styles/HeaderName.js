@@ -21,7 +21,16 @@ export default styled.div`
       border-radius: 2.5px;
       animation: nav-hover 1s;
     }
+
+    /* Responsive Styling */
   
+    @media only screen and (max-width: 900px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Animations */
+
     @keyframes nav-hover {
       0% {
         background-color: transparent;

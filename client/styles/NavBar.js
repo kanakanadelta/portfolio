@@ -7,4 +7,9 @@ export default styled.div`
   align-items: center;
 
   font-family: 'Nunito', sans-serif;
+
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+    padding: 2.5px;
+  }
 `

@@ -12,6 +12,9 @@ export default styled.div`
     .headerName {
       diplay: flex;
       justify-content: center;
+      h2 {
+        font-size: 36px;
+      }
     }
   }
 

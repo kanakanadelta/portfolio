@@ -5,4 +5,9 @@ export default styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+    /* Responsive Design */
+    @media only screen and (max-width: 900px) {
+        align-items: center;
+      }
 `

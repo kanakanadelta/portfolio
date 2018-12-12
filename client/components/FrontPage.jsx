@@ -20,11 +20,7 @@ const FrontPage = props => {
         <DropDown>
           <HelloFriend>Hello,</HelloFriend>
         </DropDown>
-        <DropDown2
-        style={{
-          marginTop: '-30px'
-        }}
-        >
+        <DropDown2>
           <HelloFriend>Friend!</HelloFriend>
         </DropDown2>  
         <TextBoxTrans
