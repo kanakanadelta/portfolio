@@ -24,4 +24,9 @@ export default styled.span`
     };
   }
 
+  @media only screen and (max-width: 900px) {
+    padding: 10px;
+    text-align: center;
+  }
+
 `

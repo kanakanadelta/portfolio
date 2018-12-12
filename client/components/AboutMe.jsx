@@ -5,6 +5,8 @@ import FrontPageDiv from '../styles/frontPage/FrontPage';
 import TextBox from '../styles/aboutMe/TextBox'
 import Fifty50 from '../styles/containers/Fifty50';
 import FadeRightDiv from '../styles/animations/FadeRightDiv'
+import ImageContainer from '../styles/graphics/AboutMeImage';
+
 // React Components
 
 
@@ -18,11 +20,14 @@ const AboutMe = props => {
           flexDirection: 'column',
           alignItems: 'center'
         }}
+        className="leftSection"
         >
-          <img 
-          src="https://s3-us-west-1.amazonaws.com/rafaelsite/Raf_Icon.jpg" 
-          alt="Rafael Art Portrait"
-          />
+          <ImageContainer>
+            <img 
+            src="https://s3-us-west-1.amazonaws.com/rafaelsite/Raf_Icon.jpg" 
+            alt="Rafael Art Portrait"
+            />
+          </ImageContainer>
           <p>art by: 
             <a 
             href="http://twitter.com/ClamitySam" 
@@ -31,7 +36,7 @@ const AboutMe = props => {
               color:'pink'
             }}
             >
-             @ClamitySam
+            @ClamitySam
             </a>
           </p>
         </FadeRightDiv>

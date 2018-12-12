@@ -8,6 +8,13 @@ export default styled.div`
   display: flex;
   justify-content: center;
 
+  @media only screen and (max-width: 900px) {
+    .headerName {
+      diplay: flex;
+      justify-content: center;
+    }
+  }
+
   background-repeat: no-repeat;
   -webkit-animation-duration: 10s;
   animation-duration: 1s;

@@ -59,6 +59,7 @@ class App extends Component {
         <div id="header">
           <Header>
             <HeaderName
+            className='header-name'
             onClick={() => this.changeView('frontPage')}
             >
               <h2>Rafael Tongson</h2>
